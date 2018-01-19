@@ -1,0 +1,8 @@
+spring.profiles.active: dev
+spring.cloud.config.server.git.uri: http://git.rfdoa.cn/wujianweia/test-pixiu-config.git
+
+---
+spring:
+  profiles: dev
+server:
+  port: 9001
