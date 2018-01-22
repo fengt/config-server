@@ -1,4 +1,5 @@
 spring.profiles.active: dev
+spring.pidfile: shared/tmp/pids/application.pid
 spring.cloud.config.server.git.uri: http://git.rfdoa.cn/wujianweia/test-pixiu-config.git
 server.port: 9001
 
